@@ -1,10 +1,19 @@
 const student = {
   name: "John Doe",
   grade: 12,
+  Age: 18,
   subjects: ["Math", "Science", "History"],
 };
 
-console.log("Student Name: " + stdent.name);
-console.log("Student Age: " + student.age);
-console.log("Student Grade: " + student.gade);
+console.log("Student Name: " + student.name);
+console.log("Student Age: " + student.Age);
+console.log("Student Grade: " + student.grade);
 console.log("Student Subjects: " + student.subjects);
+
+
+
+
+//'Student Name: John Doe'
+//'Student Age: 18'
+//'Student Grade: 12'
+//'Student Subjects: Math,Science,History'
